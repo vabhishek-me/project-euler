@@ -7,7 +7,7 @@ Find the sum of all the multiples of 3 or 5 below 1000.
 
 ## Solution
 
-####*Naive Method*
+#### *Naive Method*
 
  - If you do it naively, what you can do is loop over all numbers from 3 to 999 and check if they are divided by 3 or 5 and add it a variable sum.
 
@@ -37,24 +37,24 @@ ans = sumOfMultiples(3) + sumOfMultiples(5) - sumOfMultiples(15)
 print(ans)
 ```
 
-####*A Good Solution*
+#### *A Good Solution*
 
  - Now lets look at the pattern we form when solving this question:
 
     - For Multiples of 3, the pattern is 
-```
-      3 + 6 + 9 + 12 + ... + 999 = 3 * (1+2+...+333)
-```
+     ```
+        3 + 6 + 9 + 12 + ... + 999 = 3 * (1+2+...+333)
+     ```
 
     - For Multiples of 5, the pattern is 
-```
-    5 + 10 + ... + 995 = 5 * (1+2+...+199)
-```
+    ```
+       5 + 10 + ... + 995 = 5 * (1+2+...+199)
+    ```
 
     - For Multiples of 15, the pattern is 
-```
-    15 + 30 + ... + 990 = 15 * (1+2+ ... + 66)
-```
+    ```
+       15 + 30 + ... + 990 = 15 * (1+2+ ... + 66)
+    ```
 
 
  - So, what we can do is, use the arithmetic progression formula for adding numbers upto n i.e., ``` sum(1..n) = n(n+1) / 2```
