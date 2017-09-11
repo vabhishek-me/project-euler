@@ -61,5 +61,10 @@ print(ans)
 
  - Now, we can add numbers from 1 to floor(999/n) for n and multiply by n to find the sum of multiples.
 
- - See the solutions for implementation.
+ - See the solutions for implementation and attached pdf file for more explanation.
 
+---
+
+[Project Euler Problem 1 Link](https://projecteuler.net/problem=1)
+
+[Project Euler Problem 1 Discussion](https://projecteuler.net/thread=1;page=9#last)
