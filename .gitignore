@@ -100,3 +100,6 @@ ENV/
 
 # Personal Files
 .personal/
+
+# VIM
+*.swp
