@@ -103,3 +103,7 @@ ENV/
 
 # VIM
 *.swp
+
+# Personal
+*.local.md
+
